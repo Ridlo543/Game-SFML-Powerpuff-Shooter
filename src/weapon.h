@@ -40,7 +40,7 @@ public:
     void load(void);                  // Fungsi untuk memuat resource yang dibutuhkan oleh kelas Weapons
     void fire(sf::Vector2f mousePos); // Fungsi untuk mengeluarkan peluru
 
-    void update(bool mousePressed, sf::Vector2f mousePos, sf::Vector2f playerPos, Entity player, float dt, Camera view, bool playerStatus); // Fungsi untuk memperbarui keadaan senjata (mengupdate posisi peluru dan sprite senjata, serta mengecek kolision dengan player)
+    void update(bool mousePressed, sf::Vector2f mousePos, sf::Vector2f playerPos, Collision player, float dt, Camera view, bool playerStatus); // Fungsi untuk memperbarui keadaan senjata (mengupdate posisi peluru dan sprite senjata, serta mengecek kolision dengan player)
 
     int spawnWeapon(sf::Vector2f playerPos, float dt, Camera view); // Fungsi untuk men-spawn senjata baru pada map
     void changeWeapon(int type, bool playSound);                    // Fungsi untuk mengganti senjata yang sedang dipakai

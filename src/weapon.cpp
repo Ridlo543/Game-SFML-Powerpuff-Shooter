@@ -139,7 +139,7 @@ void Weapons::fire(sf::Vector2f mousePos)
     renderFlash = true;
 }
 
-void Weapons::update(bool mousePressed, sf::Vector2f mousePos, sf::Vector2f playerPos, Entity player, float dt, Camera view, bool playerStatus)
+void Weapons::update(bool mousePressed, sf::Vector2f mousePos, sf::Vector2f playerPos, Collision player, float dt, Camera view, bool playerStatus)
 {
     // mengatur flashTimer, reloadTimer, dan gunSpawnTimer
     flashTimer += dt;    // untuk muzzle flash

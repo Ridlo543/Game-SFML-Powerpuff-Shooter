@@ -2,7 +2,7 @@
 #pragma once
 #include "enemyManager.h"
 
-class Player : public Entity
+class Player : public Collision
 {
 private:
     sf::Vector2f position;    // posisi saat ini dari pemain

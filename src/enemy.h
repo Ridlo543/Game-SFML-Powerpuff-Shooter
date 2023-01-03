@@ -1,7 +1,7 @@
 #pragma once
 #include "weapon.h"
 
-class Enemy : public Entity
+class Enemy : public Collision
 {
 private:
     sf::Vector2f position;

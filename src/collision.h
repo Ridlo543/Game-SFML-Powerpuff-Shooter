@@ -2,11 +2,11 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 
-class Entity : public sf::RectangleShape
+class Collision : public sf::RectangleShape
 {
 public:
     // Method untuk mengecek apakah objek ini bersentuhan dengan objek lain
-    bool isColliding(Entity &other)
+    bool isColliding(Collision &other)
     {
         return this->getGlobalBounds().intersects(other.getGlobalBounds());
     }

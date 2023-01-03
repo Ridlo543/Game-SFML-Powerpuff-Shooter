@@ -7,8 +7,8 @@
 static sf::Texture bulletTexture;
 static sf::Texture fireBallTexture;
 
-// kelas Bullet merupakan turunan dari kelas Entity
-class Bullet : public Entity
+// kelas Bullet merupakan turunan dari kelas Collision
+class Bullet : public Collision
 {
 private:
     float bulletSize = 15.f;        // ukuran bullet
