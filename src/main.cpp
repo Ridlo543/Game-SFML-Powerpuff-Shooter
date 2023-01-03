@@ -11,7 +11,7 @@ int main()
     // Menentukan ukuran window
     sf::Vector2f windowSize = sf::Vector2f(1280, 720);
     // Membuat window dengan ukuran dan judul yang telah ditentukan
-    sf::RenderWindow window(sf::VideoMode(1280, 720), "Shooter maniac", sf::Style::Default);
+    sf::RenderWindow window(sf::VideoMode(1280, 720), "PowerPuff_Shooter", sf::Style::Default);
 
     // Mengatur batas fps pada window
     window.setFramerateLimit(120);
