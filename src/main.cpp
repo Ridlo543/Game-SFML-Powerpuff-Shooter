@@ -128,7 +128,7 @@ int main()
             gameUi->updateCharacterSelect(mousePos, mousePressed);
             if (gameUi->playerType != player->getCharacterType())
                 player->setCharacterType(gameUi->playerType);
-            player->animateIdle(dt, sf::Vector2f(0.25, 0.25));
+            player->animateIdle(dt, sf::Vector2f(1, 1));
             break;
         case 2: // how to
             gameUi->updateHowToState(mousePos, mousePressed);
