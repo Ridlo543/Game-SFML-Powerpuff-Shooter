@@ -169,7 +169,7 @@ int main()
             break;
         case 6:
             break;
-        case7:
+        case 7:
             window.close();
         default:
             break;
