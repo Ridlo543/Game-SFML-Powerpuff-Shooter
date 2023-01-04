@@ -68,7 +68,7 @@ Ui::Ui(sf::Vector2f windowSize)
     startButtonTex.loadFromFile("assets/Ui/start_button.png");
     startButton.setTexture(startButtonTex);
     startButton.setScale(startButtonScale);
-    startButtonPos = sf::Vector2f(windowSize.x / 2 - nextButton.getGlobalBounds().width / 2,
+    startButtonPos = sf::Vector2f(windowSize.x / 2 + 200,
                                   windowSize.y - 170);
     startButton.setPosition(startButtonPos);
 
