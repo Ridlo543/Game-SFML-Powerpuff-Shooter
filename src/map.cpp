@@ -16,7 +16,6 @@ Map::Map(sf::Vector2f windowSize)
 // Fungsi initMap() digunakan untuk menginisialisasi peta pada saat game pertama kali dimulai.
 // Fungsi ini mengeload 8 "quad" yang terletak di tengah, atas, bawah, kiri, dan kanan dari tengah.
 // Setiap "quad" terdiri dari beberapa objek peta, yang dihasilkan oleh fungsi spwanObjectsInQuad().
-
 void Map::initMap(Camera view)
 {
     // Men-load 8 "quad" yang terletak di tengah, atas, bawah, kiri, dan kanan dari tengah.
